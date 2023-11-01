@@ -1,0 +1,74 @@
+﻿@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 100;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyJPTA.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLwyNPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLHSNPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLQyNPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLcSNPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLnSRPTA.ttf) format('truetype');
+}
+
+
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLpCRPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpLwyRPTA.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Advent Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-stretch: normal;
+  src: url(fonts/s/adventpro/v23/V8mqoQfxVT4Dvddr_yOwrzaFxV7JtdQgFqXdUAQrGp_zgX5sWCpL6iRPTA.ttf) format('truetype');
+}
