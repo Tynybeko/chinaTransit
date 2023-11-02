@@ -238,6 +238,38 @@
 		.landing-public-mode h6 {
 			font-weight: 700;
 		}
+
+		.change-lang {
+			position: absolute;
+			width: 50px;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			height: 50px;
+			border-radius: 50%;
+			background-color: var(--primary);
+			left: 10px;
+			bottom: 10px;
+			cursor: pointer;
+			z-index: 99;
+			transition: all .2s ease-in-out;
+		}
+
+		.change-lang:hover {
+			background-color: #f5fafa;
+
+		}
+
+		.change-lang:hover a {
+			color: var(--primary);
+		}
+
+
+		.change-lang a {
+			font-size: 20px;
+			color: white;
+		}
 	</style>
 	<meta property="og:title" content="Услуги логистики">
 	<meta property="og:description" content="Сервису логистики не обойтись без надёжного сайта для приёма заявок!">
@@ -262,6 +294,7 @@
 	<main class="w-100 landing-public-mode">
 		<div id="b57991" class="block-wrapper block-0-menu-04">
 			<header class="landing-block u-header u-header--sticky u-header--float">
+
 				<div class="u-header__section g-bg-black-opacity-0_4 g-transition-0_3 g-py-8 g-py-17--md"
 					data-header-fix-moment-exclude="g-bg-black-opacity-0_4 g-py-17--md"
 					data-header-fix-moment-classes="u-header__section--light u-theme-architecture-shadow-v1 g-bg-white g-py-10--md">
@@ -386,6 +419,7 @@
                  }
                }]">
 					<div class="landing-block-node-card js-slide">
+
 						<!-- Promo Block -->
 						<div class="landing-block-node-card-img h-100 g-flex-centered g-min-height-100vh g-bg-cover g-bg-pos-center g-bg-img-hero g-bg-black-opacity-0_2--after g-pt-10 g-pb-30"
 							data-fileid="412" data-fileid2x="414"
@@ -395,6 +429,10 @@
 							data-bg="url('https://cdn-ru.bitrix24.ru/b27144888/landing/df6/df6feea42bbd58ed027698d3d6439454/home-bg_1x.jpg')|-webkit-image-set(url('https://cdn-ru.bitrix24.ru/b27144888/landing/df6/df6feea42bbd58ed027698d3d6439454/home-bg_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b27144888/landing/690/6908602cc79b73e2e79b50fd2e238860/home-bg_2x.jpg') 2x)|image-set(url('https://cdn-ru.bitrix24.ru/b27144888/landing/df6/df6feea42bbd58ed027698d3d6439454/home-bg_1x.jpg') 1x, url('https://cdn-ru.bitrix24.ru/b27144888/landing/690/6908602cc79b73e2e79b50fd2e238860/home-bg_2x.jpg') 2x)"
 							data-src="https://cdn-ru.bitrix24.ru/b27144888/landing/df6/df6feea42bbd58ed027698d3d6439454/home-bg_1x.jpg"
 							data-src2x="https://cdn-ru.bitrix24.ru/b27144888/landing/690/6908602cc79b73e2e79b50fd2e238860/home-bg_2x.jpg">
+
+							<div class="change-lang">
+								<a href="./en/index.html">RU</a>
+							</div>
 							<div
 								class="landing-block-node-text-container js-animation fadeIn container text-center g-z-index-1 g-mx-0">
 
