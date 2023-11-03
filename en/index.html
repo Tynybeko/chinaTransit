@@ -7,7 +7,7 @@
 	<meta name="HandheldFriendly" content="true">
 	<meta name="MobileOptimized" content="width">
 	<meta name="apple-mobile-web-app-capable" content="yes">
-	<title>Услуги логистики</title>
+	<title>Chine Transit</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="keywords"
 		content="Delivery , Logistic, On the territories of Kyrgyzstan and in 7 regions, Cargo transportation from China, Cargo transportation to Kyrgyzstan and EAU countries ">
@@ -15,7 +15,6 @@
 		:root {
 			--theme-color-b24button: var(--primary);
 		}
-		
 	</style>
 	<style>
 		:root {
@@ -269,15 +268,17 @@
 			background-color: #21a79b !important;
 		}
 	</style>
-	<meta property="og:title" content="Услуги логистики">
-	<meta property="og:description" content="Сервису логистики не обойтись без надёжного сайта для приёма заявок!">
+	<meta property="og:title" content="Chine Transit">
+	<meta property="og:description"
+		content="A logistics service cannot do without a reliable website for receiving applications!">
 	<meta property="og:image"
 		content="https://cdn-ru.bitrix24.ru/b27144888/landing/528/528508500e91d938c36f2105b36c5d83/Rich_1x.jpg">
 	<meta property="og:image:width" content="520">
 	<meta property="og:image:height" content="292">
 	<meta property="og:type" content="website">
-	<meta property="twitter:title" content="Услуги логистики">
-	<meta property="twitter:description" content="Сервису логистики не обойтись без надёжного сайта для приёма заявок!">
+	<meta property="twitter:title" content="Chine Transit">
+	<meta property="twitter:description"
+		content="A logistics service cannot do without a reliable website for receiving applications!">
 	<meta property="twitter:image"
 		content="https://cdn-ru.bitrix24.ru/b27144888/landing/528/528508500e91d938c36f2105b36c5d83/Rich_1x.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -671,7 +672,7 @@
 
 									<h2 class="landing-block-node-title landing-semantic-title-medium text-uppercase mb-0 text-left g-mb-25 g-font-size-42 u-heading-v2-13-2--left g-pr-auto g-pl-25 g-border-color g-border-color--hover g-font-weight-auto"
 										style="--color: ;--border-color: var(--primary);--border-color--hover: var(--primary);">
-										Виды услуг</h2>
+										Types of services</h2>
 									<div class="d-flex">
 										<div
 											class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-24 g-mr-10">
@@ -1258,6 +1259,18 @@
 																	</g>
 																</svg></div>
 														</div>
+														<style>
+															.b24-form-state-container .b24-form-success {
+																display: none;
+															}
+
+															.b24-form-state-container .b24-form-success.active {
+																display: block;
+																display: flex;
+																justify-content: center;
+																align-items: center;
+															}
+														</style>
 														<div class="b24-form-state b24-form-success"
 															style="display: none;">
 															<div class="b24-form-state-inner">
@@ -1431,7 +1444,14 @@
 					text: MESSAGE,
 				}),
 			})
-				.then(res => form.reset())
+				.then(res => {
+					let a = document.querySelector('.b24-form-success')
+					a.classList.add('active')
+					setTimeout(() => {
+						a.classList.remove('active')
+					}, 1200)
+					form.reset()
+				})
 		}
 	</script>
 	<script data-skip-moving="true">
