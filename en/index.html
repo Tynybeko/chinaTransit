@@ -64,31 +64,30 @@
 		data-skip-moving="true">(function (w, d, n) { var cl = "bx-core"; var ht = d.documentElement; var htc = ht ? ht.className : undefined; if (htc === undefined || htc.indexOf(cl) !== -1) { return; } var ua = n.userAgent; if (/(iPad;)|(iPhone;)/i.test(ua)) { cl += " bx-ios"; } else if (/Windows/i.test(ua)) { cl += ' bx-win'; } else if (/Macintosh/i.test(ua)) { cl += " bx-mac"; } else if (/Linux/i.test(ua) && !/Android/i.test(ua)) { cl += " bx-linux"; } else if (/Android/i.test(ua)) { cl += " bx-android"; } cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch"); cl += w.devicePixelRatio && w.devicePixelRatio >= 2 ? " bx-retina" : " bx-no-retina"; var ieVersion = -1; if (/AppleWebKit/.test(ua)) { cl += " bx-chrome"; } else if (/Opera/.test(ua)) { cl += " bx-opera"; } else if (/Firefox/.test(ua)) { cl += " bx-firefox"; } ht.className = htc ? htc + " " + cl : cl; })(window, document, navigator);</script>
 
 
-	<link href="./bitrix/js/intranet/intranet-common.min.css?166151605361199" type="text/css" rel="stylesheet">
-	<link href="./bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?166921294222029" type="text/css"
+	<link href=".././bitrix/js/intranet/intranet-common.min.css?166151605361199" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/js/ui/design-tokens/dist/ui.design-tokens.min.css?166921294222029" type="text/css"
 		rel="stylesheet">
-	<link href="./bitrix/js/intranet/design-tokens/bitrix24/bitrix24-design-tokens.min.css?16854388541467"
+	<link href=".././bitrix/js/intranet/design-tokens/bitrix24/bitrix24-design-tokens.min.css?16854388541467"
 		type="text/css" rel="stylesheet">
-	<link href="./bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320" type="text/css" rel="stylesheet">
-	<link href="./bitrix/js/main/popup/dist/main.popup.bundle.min.css?168130229626598" type="text/css" rel="stylesheet">
-	<link href="./bitrix/js/main/sidepanel/css/sidepanel.min.css?16655607828173" type="text/css" rel="stylesheet">
-	<link href="./bitrix/js/main/core/css/core_date.min.css?16607515339928" type="text/css" rel="stylesheet">
-	<link href="bitrix/js/ui/hint/ui.hint.min.css?16512448992055" type="text/css" rel="stylesheet">
-	<link href="bitrix/js/landing/css/landing_public.min.css?1567508327250" type="text/css" rel="stylesheet">
-	<link href="bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?169461766543819" type="text/css"
+	<link href=".././bitrix/js/ui/fonts/opensans/ui.font.opensans.min.css?16620208132320" type="text/css"
 		rel="stylesheet">
-	<link href="bitrix/panel/main/popup.min.css?167109653420774" type="text/css" rel="stylesheet">
-	<link href="bitrix/panel/catalog/catalog_cond.min.css?15549945847248" type="text/css" rel="stylesheet">
-	<link href="bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1694617665177088" type="text/css"
-		data-template-style="true" rel="stylesheet">
-	<link href="bitrix/templates/landing24/theme.min.css?1694617665584818" type="text/css" data-template-style="true"
+	<link href=".././bitrix/js/main/popup/dist/main.popup.bundle.min.css?168130229626598" type="text/css"
 		rel="stylesheet">
-	<link href="bitrix/templates/landing24/template_styles.min.css?16843044572401" type="text/css"
+	<link href=".././bitrix/js/main/sidepanel/css/sidepanel.min.css?16655607828173" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/js/main/core/css/core_date.min.css?16607515339928" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/js/ui/hint/ui.hint.min.css?16512448992055" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/js/landing/css/landing_public.min.css?1567508327250" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/components/bitrix/landing.pub/templates/.default/style.min.css?169461766543819"
+		type="text/css" rel="stylesheet">
+	<link href=".././bitrix/panel/main/popup.min.css?167109653420774" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/panel/catalog/catalog_cond.min.css?15549945847248" type="text/css" rel="stylesheet">
+	<link href=".././bitrix/templates/landing24/assets/vendor/bootstrap/bootstrap.min.css?1694617665177088"
+		type="text/css" data-template-style="true" rel="stylesheet">
+	<link href=".././bitrix/templates/landing24/theme.min.css?1694617665584818" type="text/css"
 		data-template-style="true" rel="stylesheet">
-	<link rel="stylesheet" href="./css2.css">
-
-
-
+	<link href=".././bitrix/templates/landing24/template_styles.min.css?16843044572401" type="text/css"
+		data-template-style="true" rel="stylesheet">
+	<link rel="stylesheet" href=".././css2.css">
 	<script type="extension/settings"
 		data-extension="main.date">{"formats":{"FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","SHORT_DATE_FORMAT":"d.m.Y","MEDIUM_DATE_FORMAT":"j M Y","LONG_DATE_FORMAT":"j F Y","DAY_MONTH_FORMAT":"j F","DAY_SHORT_MONTH_FORMAT":"j M","SHORT_DAY_OF_WEEK_MONTH_FORMAT":"D, j F","SHORT_DAY_OF_WEEK_SHORT_MONTH_FORMAT":"D, j M","DAY_OF_WEEK_MONTH_FORMAT":"l, j F","FULL_DATE_FORMAT":"l, j F Y","SHORT_TIME_FORMAT":"H:i","LONG_TIME_FORMAT":"H:i:s"}}</script>
 
@@ -100,7 +99,7 @@
 			background: #ffffff;
 		}
 	</style>
-	<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/fas/font.woff" as="font"
+	<link rel="preload" href=".././bitrix/templates/landing24/assets/vendor/icon/fas/font.woff" as="font"
 		crossorigin="anonymous" type="font/woff" crossorigin="">
 	<style>
 		.fa-file-lines:before {
@@ -123,12 +122,13 @@
 		.fa-couch:before {
 			content: "\f4b8";
 		}
+
 		.user-img-icon {
 			height: 250px;
 			border-radius: 50px;
 		}
 	</style>
-	<link rel="preload" href="bitrix/templates/landing24/assets/vendor/icon/far/font.woff" as="font"
+	<link rel="preload" href=".././bitrix/templates/landing24/assets/vendor/icon/far/font.woff" as="font"
 		crossorigin="anonymous" type="font/woff" crossorigin="">
 	<style>
 		.fa-clock-nine:before {
@@ -297,11 +297,11 @@
 	<meta property="twitter:type" content="website">
 	<meta property="og:url" content="http://chinatransite.kg/en">
 	<link rel="canonical" href="index.html">
-	<link rel="apple-touch-icon" sizes="180x180" href="favicon_package/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon_package/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon_package/favicon-16x16.png">
-	<link rel="manifest" href="favicon_package/site.webmanifest">
-	<link rel="mask-icon" href="favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="apple-touch-icon" sizes="180x180" href=".././favicon_package/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href=".././favicon_package/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href=".././favicon_package/favicon-16x16.png">
+	<link rel="manifest" href=".././favicon_package/site.webmanifest">
+	<link rel="mask-icon" href=".././favicon_package/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 </head>
@@ -353,7 +353,7 @@
 									</li>
 									<li class="landing-block-node-menu-list-item nav-item g-mx-30--lg g-mb-7 g-mb-0--lg"
 										data-card-preset="link">
-										<a href="/en#b56413"
+										<a href="#b56413" hrefV1="/en#b56413"
 											class="landing-block-node-menu-list-item-link landing-semantic-menu-h-text nav-link p-0 g-font-size-14"
 											target="_self">Ordering</a>
 									</li>
@@ -533,13 +533,13 @@
 										class="landing-block-faq-visible landing-block-card--link d-block text-uppercase g-pos-rel g-brd-bottom g-brd-primary g-brd-2 g-py-15 g-cursor-pointer">
 										<span
 											class="landing-block-node-card-img-container g-valign-middle g-font-size-23 g-mr-10 g-color-primary">
-											<img src="./bitrix/images/document.svg" alt=""></span>
+											<img src=".././bitrix/images/document.svg" alt=""></span>
 										<h5 class="landing-block-node-card-title landing-semantic-subtitle-small g-valign-middle d-inline-block g-color g-color--hover g-mb-0 g-width-80x g-font-size-25 g-text-transform-none g-font-weight-auto"
 											style="--color: ;--color-hover: hsla(0, 0%, 0%, 1);">Document delivery
 										</h5>
 										<div
 											class="landing-block-faq-icons g-color-primary g-font-size-20 g-py-15 g-pr-15">
-											<img src="./bitrix/images/arrow.svg" alt="">
+											<img src=".././bitrix/images/arrow.svg" alt="">
 										</div>
 									</div>
 									<div class="landing-block-faq-hidden g-pt-20 g-pb-0 px-0">
@@ -564,7 +564,7 @@
 											style="--color: ;--color-hover: hsla(0, 0%, 0%, 1);">Personal parcels</h5>
 										<div
 											class="landing-block-faq-icons g-color-primary g-font-size-20 g-py-15 g-pr-15">
-											<img src="./bitrix/images/arrow.svg" alt="">
+											<img src=".././bitrix/images/arrow.svg" alt="">
 										</div>
 									</div>
 									<div class="landing-block-faq-hidden g-pt-20 g-pb-0 px-0">
@@ -586,7 +586,7 @@
 											style="--color: ;--color-hover: hsla(0, 0%, 0%, 1);">Fragile cargo</h5>
 										<div
 											class="landing-block-faq-icons g-color-primary g-font-size-20 g-py-15 g-pr-15">
-											<img src="./bitrix/images/arrow.svg" alt="">
+											<img src=".././bitrix/images/arrow.svg" alt="">
 										</div>
 									</div>
 									<div class="landing-block-faq-hidden g-pt-20 g-pb-0 px-0">
@@ -609,7 +609,7 @@
 										</h5>
 										<div
 											class="landing-block-faq-icons g-color-primary g-font-size-20 g-py-15 g-pr-15">
-											<img src="./bitrix/images/arrow.svg" alt="">
+											<img src=".././bitrix/images/arrow.svg" alt="">
 										</div>
 									</div>
 									<div class="landing-block-faq-hidden g-pt-20 g-pb-0 px-0">
@@ -661,7 +661,7 @@
 									<div class="d-flex">
 										<div
 											class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-24 g-mr-10">
-											<img src="./bitrix/images/express.svg" alt="">
+											<img src=".././bitrix/images/express.svg" alt="">
 										</div>
 										<div class="landing-block-node-text-7957-2793-8186-2872 g-pointer-events-all g-pb-1 text-left g-font-size-20"
 											style="--color: ;">
@@ -672,7 +672,7 @@
 									<div class="d-flex">
 										<div
 											class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-24 g-mr-10">
-											<img src="./bitrix/images/delivery.svg" alt="">
+											<img src=".././bitrix/images/delivery.svg" alt="">
 										</div>
 										<div class="landing-block-node-text-7957-2793-8186 g-pointer-events-all g-pb-1 text-left g-font-size-20"
 											style="--color: ;">
@@ -684,7 +684,7 @@
 									<div class="d-flex">
 										<div
 											class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-24 g-mr-10">
-											<img src="./bitrix/images/map.svg" alt="">
+											<img src=".././bitrix/images/map.svg" alt="">
 										</div>
 										<div class="landing-block-node-text-7957-2793 g-pointer-events-all g-pb-1 text-left g-font-size-20"
 											style="--color: ;">
@@ -696,7 +696,7 @@
 									<div class="d-flex">
 										<div
 											class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-24 g-mr-10">
-											<img src="./bitrix/images/global.svg" alt="">
+											<img src=".././bitrix/images/global.svg" alt="">
 										</div>
 										<div class="landing-block-node-text-7957 g-pointer-events-all g-pb-1 text-left g-font-size-20"
 											style="--color: ;">
@@ -893,7 +893,7 @@
 								places?</h3>
 							<div class="landing-block-faq-icons g-pos-abs g-bg"
 								style="--bg: hsla(0, 0%, 0%, 1); --bg-url: ; --bg-url-2x: ; --bg-overlay: ; --bg-size: ; --bg-attachment: ; justify-content: center; align-items: center; display: flex;">
-								<img src="./bitrix/images/arrow.svg" alt="">
+								<img src=".././bitrix/images/arrow.svg" alt="">
 								<!-- <i class="fas fa-times g-color-white"></i> -->
 							</div>
 							<div class="landing-block-faq-hidden g-mt-35 g-color g-font-size-16"
@@ -909,7 +909,7 @@
 								delivery?</h3>
 							<div class="landing-block-faq-icons g-pos-abs g-bg"
 								style="--bg: hsla(0, 0%, 0%, 1); --bg-url: ; --bg-url-2x: ; --bg-overlay: ; --bg-size: ; --bg-attachment: ; justify-content: center; align-items: center; display: flex;">
-								<img src="./bitrix/images/arrow.svg" alt="">
+								<img src=".././bitrix/images/arrow.svg" alt="">
 								<!-- <i class="fas fa-times g-color-white"></i> -->
 							</div>
 							<div class="landing-block-faq-hidden g-mt-35 g-color g-font-size-16"
@@ -927,7 +927,7 @@
 								logistics company?</h3>
 							<div class="landing-block-faq-icons g-pos-abs g-bg"
 								style="--bg: hsla(0, 0%, 0%, 1); --bg-url: ; --bg-url-2x: ; --bg-overlay: ; --bg-size: ; --bg-attachment: ; justify-content: center; align-items: center; display: flex;">
-								<img src="./bitrix/images/arrow.svg" alt="">
+								<img src=".././bitrix/images/arrow.svg" alt="">
 								<!-- <i class="fas fa-times g-color-white"></i> -->
 							</div>
 							<div class="landing-block-faq-hidden g-mt-35 g-color g-font-size-16"
@@ -946,7 +946,7 @@
 								logistics company?</h3>
 							<div class="landing-block-faq-icons g-pos-abs g-bg"
 								style="--bg: hsla(0, 0%, 0%, 1); --bg-url: ; --bg-url-2x: ; --bg-overlay: ; --bg-size: ; --bg-attachment: ; justify-content: center; align-items: center; display: flex;">
-								<img src="./bitrix/images/arrow.svg" alt="">
+								<img src=".././bitrix/images/arrow.svg" alt="">
 								<!-- <i class="fas fa-times g-color-white"></i> -->
 							</div>
 							<div class="landing-block-faq-hidden g-mt-35 g-color g-font-size-16"
@@ -988,14 +988,14 @@
 									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDgiIGhlaWdodD0iMzg4Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg=="
 									alt="" srcset="" data-fileid="440"
 									data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}"
-									data-lazy-img="Y" data-src="./bitrix/images/userDir.jpg"  loading="lazy"></div>
+									data-lazy-img="Y" data-src=".././bitrix/images/userDir.jpg" loading="lazy"></div>
 							<h3 class="landing-block-node-card-number landing-semantic-subtitle-big g-color-white mb-0 g-font-size-28 g-mb-8 g-pt-20"
 								style="--color: ;">Director</h3>
 
-							
+
 							<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pb-10 g-pt-auto"
 								style=""></div>
-							
+
 						</div>
 						<div
 							class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-3 text-center g-mb-40 g-mb-0--lg">
@@ -1004,16 +1004,14 @@
 									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NDgiIGhlaWdodD0iMzg4Ij48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg=="
 									alt="" srcset="" data-fileid="442"
 									data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}"
-									data-lazy-img="Y"
-									data-src="./bitrix/images/userMan.jpg" 
-									loading="lazy"></div>
+									data-lazy-img="Y" data-src=".././bitrix/images/userMan.jpg" loading="lazy"></div>
 							<h3 class="landing-block-node-card-number landing-semantic-subtitle-big g-color-white mb-0 g-font-size-28 g-mb-8 g-pt-20"
 								style="--color: ;">Manager</h3>
 
-							
+
 							<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pb-10 g-pt-auto"
 								style=""></div>
-							
+
 						</div>
 						<div
 							class="landing-block-node-card js-animation fadeInUp col-md-6 col-lg-3 text-center g-mb-40 g-mb-0--md">
@@ -1022,16 +1020,14 @@
 									src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MjYiIGhlaWdodD0iMzcyIj48cmVjdCBpZD0iYmFja2dyb3VuZHJlY3QiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHg9IjAiIHk9IjAiIGZpbGw9IiNkZGQiIGZpbGwtb3BhY2l0eT0iLjciIHN0cm9rZT0ibm9uZSIvPjwvc3ZnPg=="
 									alt="" srcset="" data-fileid="444"
 									data-pseudo-url="{&quot;text&quot;:&quot;&quot;,&quot;href&quot;:&quot;#&quot;,&quot;target&quot;:&quot;_blank&quot;,&quot;enabled&quot;:false}"
-									data-lazy-img="Y"
-									data-src="./bitrix/images/userExp.jpg" 
-									loading="lazy"></div>
+									data-lazy-img="Y" data-src=".././bitrix/images/userExp.jpg" loading="lazy"></div>
 							<h3 class="landing-block-node-card-number landing-semantic-subtitle-big g-color-white mb-0 g-font-size-28 g-mb-8 g-pt-20"
 								style="--color: ;">Forwarder</h3>
 
-							
+
 							<div class="landing-block-node-containerbutton g-pointer-events-all g-flex-centered g-pb-10 g-pt-auto"
 								style=""></div>
-							
+
 						</div>
 					</div>
 				</div>
@@ -1040,7 +1036,7 @@
 		<div id="b56429" class="block-wrapper block-33-32-form-light-bgimg-right-text">
 			<section class="g-pos-rel landing-block">
 				<div class="landing-block-node-bgimg landing-semantic-color-overlay g-bg-size-cover g-bg-img-hero g-bg-cover g-py-20 g-bg-attachment-fixed g-bg-image"
-					style="--bg: ;--bg-url: url(&quot;site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg&quot;);--bg-url-2x: url(`&quot;site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg&quot;);--bg-overlay: hsla(0, 0%, 0%, 0.7);--bg-size: cover;--bg-attachment: scroll;background-image: url(site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg);">
+					style="--bg: ;--bg-url: url(&quot;.././site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg&quot;);--bg-url-2x: url(`&quot;.././site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg&quot;);--bg-overlay: hsla(0, 0%, 0%, 0.7);--bg-size: cover;--bg-attachment: scroll;background-image: url(.././site_external_files/a5a/a5a06989047576d4171c581561adc0a7/contacts-bg_1x.jpg);">
 					<div class="container g-pos-rel g-z-index-1 g-py-100">
 
 						<div class="landing-block-node-row row align-self-start align-items-start" style="">
@@ -1348,7 +1344,7 @@
 								<div class="d-flex">
 									<div class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-30 g-mr-20"
 										style="--color: ;">
-										<img src="./bitrix/images/adress.svg" alt="">
+										<img src=".././bitrix/images/adress.svg" alt="">
 									</div>
 									<div class="landing-block-node-text-3017-5163-4084 g-pointer-events-all g-pb-1 text-left g-color g-font-size-27"
 										style="--color: #ffffff;">
@@ -1357,19 +1353,19 @@
 								</div>
 								<div class="d-flex">
 									<div class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-30 g-mr-20"
-										style="--color: ;"><img src="./bitrix/images/phone.svg" alt=""></div>
+										style="--color: ;"><img src=".././bitrix/images/phone.svg" alt=""></div>
 									<div class="landing-block-node-text-3017-5163 g-pointer-events-all g-pb-1 text-left g-color g-font-size-27"
 										style="--color: #ffffff;">
-										<p><a href="tel:+123456789" target="_blank"
+										<p><a href="tel:+996550611119" target="_blank"
 												style="color: rgb(255, 255, 255);">+996-550-61-11-19</a></p>
 									</div>
 								</div>
 								<div class="d-flex">
 									<div class="landing-block-node-containericon g-pointer-events-all g-color-primary g-font-size-30 g-mr-20"
-										style="--color: ;"><img src="./bitrix/images/email.svg" alt=""></div>
+										style="--color: ;"><img src=".././bitrix/images/email.svg" alt=""></div>
 									<div class="landing-block-node-text-3017 g-pointer-events-all g-pb-1 text-left g-color g-font-size-27"
 										style="--color: #ffffff;">
-										<p><a href="mailto:info@company24.com" target="_blank"
+										<p><a href="mailto:ch.jolonov@gmail.com.com" target="_blank"
 												style="color: rgb(255, 255, 255);">ch.jolonov@gmail.com</a></p>
 									</div>
 								</div>
@@ -1423,8 +1419,8 @@
 		type="text/javascript">if (!window.BX) window.BX = {}; if (!window.BX.message) window.BX.message = function (mess) { if (typeof mess === 'object') { for (let i in mess) { BX.message[i] = mess[i]; } return true; } };</script>
 	<script
 		type="text/javascript">(window.BX || top.BX).message({ 'JS_CORE_LOADING': 'Загрузка...', 'JS_CORE_NO_DATA': '- Нет данных -', 'JS_CORE_WINDOW_CLOSE': 'Закрыть', 'JS_CORE_WINDOW_EXPAND': 'Развернуть', 'JS_CORE_WINDOW_NARROW': 'Свернуть в окно', 'JS_CORE_WINDOW_SAVE': 'Сохранить', 'JS_CORE_WINDOW_CANCEL': 'Отменить', 'JS_CORE_WINDOW_CONTINUE': 'Продолжить', 'JS_CORE_H': 'ч', 'JS_CORE_M': 'м', 'JS_CORE_S': 'с', 'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние', 'JSADM_AI_ALL_NOTIF': 'Показать все', 'JSADM_AUTH_REQ': 'Требуется авторизация!', 'JS_CORE_WINDOW_AUTH': 'Войти', 'JS_CORE_IMAGE_FULL': 'Полный размер' });</script>
-	<script type="text/javascript" src="bitrix/js/main/core/core.min.js?1695284678221146"></script>
-	<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js', '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+	<script type="text/javascript" src=".././bitrix/js/main/core/core.min.js?1695284678221146"></script>
+	<script>BX.setJSList(['.././bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js', '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js', '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js', '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js', '/bitrix/js/main/lazyload/dist/lazyload.bundle.js', '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/parambag/dist/parambag.bundle.js']);
 	</script>
 	<script
 		type="text/javascript">(window.BX || top.BX).message({ 'pull_server_enabled': 'Y', 'pull_config_timestamp': '1645115472', 'pull_guest_mode': 'N', 'pull_guest_user_id': '0' }); (window.BX || top.BX).message({ 'PULL_OLD_REVISION': 'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.' });</script>
@@ -1441,27 +1437,29 @@
 		type="text/javascript">(window.BX || top.BX).message({ 'JC_CORE_TREE_SELECT_CONTROL': 'Выберите условие', 'JC_CORE_TREE_ADD_CONTROL': 'Добавить условие', 'JC_CORE_TREE_DELETE_CONTROL': 'Удалить условие', 'JC_CORE_TREE_CONTROL_DATETIME_ICON': 'Нажмите для выбора даты', 'JC_CORE_TREE_CONDITION_ERROR': 'Ошибка в условии', 'JC_CORE_TREE_CONDITION_FATAL_ERROR': 'Неустранимая ошибка в условии. Рекомендуется его удалить' });</script>
 	<script
 		type="text/javascript">(window.BX || top.BX).message({ 'LANGUAGE_ID': 'ru', 'FORMAT_DATE': 'DD.MM.YYYY', 'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS', 'COOKIE_PREFIX': 'BITRIX_SM', 'SERVER_TZ_OFFSET': '10800', 'UTF_MODE': 'Y', 'SITE_ID': 's1', 'SITE_DIR': '/', 'USER_ID': '', 'SERVER_TIME': '1698730987', 'USER_TZ_OFFSET': '0', 'USER_TZ_AUTO': 'Y', 'bitrix_sessid': 'b545a31994f79e831b38a9f8d52341cc' });</script>
-	<script type="text/javascript" src="bitrix/js/ui/dexie/dist/dexie3.bundle.min.js?169399112688274"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_ls.min.js?14328944187365"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_fx.min.js?14909536449768"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_frame_cache.min.js?169580854411307"></script>
-	<script type="text/javascript" src="bitrix/js/pull/protobuf/protobuf.min.js?159231549176433"></script>
-	<script type="text/javascript" src="bitrix/js/pull/protobuf/model.min.js?159231549114190"></script>
-	<script type="text/javascript" src="bitrix/js/rest/client/rest.client.min.js?16015491189240"></script>
-	<script type="text/javascript" src="bitrix/js/pull/client/pull.client.min.js?169564965747780"></script>
-	<script type="text/javascript" src="bitrix/js/landing/metrika/dist/metrika.bundle.min.js?16946176653031"></script>
-	<script type="text/javascript" src="bitrix/js/main/pageobject/pageobject.min.js?1584117434570"></script>
-	<script type="text/javascript" src="bitrix/js/main/popup/dist/main.popup.bundle.min.js?168130228565670"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_clipboard.min.js?16572140002246"></script>
-	<script type="text/javascript" src="bitrix/js/main/sidepanel/manager.min.js?169528467819630"></script>
-	<script type="text/javascript" src="bitrix/js/main/sidepanel/slider.min.js?166798600431250"></script>
-	<script type="text/javascript" src="bitrix/js/main/date/main.date.min.js?168130228517992"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_date.min.js?161286731026661"></script>
-	<script type="text/javascript" src="bitrix/js/main/core/core_window.min.js?169650338576324"></script>
-	<script type="text/javascript" src="bitrix/js/catalog/core_tree.min.js?165634246245324"></script>
-	<script type="text/javascript" src="bitrix/js/ui/hint/ui.hint.min.js?16939911264771"></script>
+	<script type="text/javascript" src=".././bitrix/js/ui/dexie/dist/dexie3.bundle.min.js?169399112688274"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_ls.min.js?14328944187365"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_fx.min.js?14909536449768"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_frame_cache.min.js?169580854411307"></script>
+	<script type="text/javascript" src=".././bitrix/js/pull/protobuf/protobuf.min.js?159231549176433"></script>
+	<script type="text/javascript" src=".././bitrix/js/pull/protobuf/model.min.js?159231549114190"></script>
+	<script type="text/javascript" src=".././bitrix/js/rest/client/rest.client.min.js?16015491189240"></script>
+	<script type="text/javascript" src=".././bitrix/js/pull/client/pull.client.min.js?169564965747780"></script>
 	<script type="text/javascript"
-		src="bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min.js?15362428577124"></script>
+		src=".././bitrix/js/landing/metrika/dist/metrika.bundle.min.js?16946176653031"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/pageobject/pageobject.min.js?1584117434570"></script>
+	<script type="text/javascript"
+		src=".././bitrix/js/main/popup/dist/main.popup.bundle.min.js?168130228565670"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_clipboard.min.js?16572140002246"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/sidepanel/manager.min.js?169528467819630"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/sidepanel/slider.min.js?166798600431250"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/date/main.date.min.js?168130228517992"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_date.min.js?161286731026661"></script>
+	<script type="text/javascript" src=".././bitrix/js/main/core/core_window.min.js?169650338576324"></script>
+	<script type="text/javascript" src=".././bitrix/js/catalog/core_tree.min.js?165634246245324"></script>
+	<script type="text/javascript" src=".././bitrix/js/ui/hint/ui.hint.min.js?16939911264771"></script>
+	<script type="text/javascript"
+		src=".././bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.min.js?15362428577124"></script>
 	<script
 		type="text/javascript">if (Intl && Intl.DateTimeFormat) document.cookie = "BITRIX_SM_TZ=" + Intl.DateTimeFormat().resolvedOptions().timeZone + "; path=/; expires=Tue, 01 Oct 2024 00:00:00 +0300";</script>
 	<script>
@@ -1474,9 +1472,9 @@
 
 
 	<script type="text/javascript"
-		src="bitrix/templates/landing24/assets/js/helpers/lazyload.min.js?16770006392181"></script>
+		src=".././bitrix/templates/landing24/assets/js/helpers/lazyload.min.js?16770006392181"></script>
 	<script type="text/javascript"
-		src="bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?16843044578156"></script>
+		src=".././bitrix/components/bitrix/landing.pub/templates/.default/script.min.js?16843044578156"></script>
 	<script>
 		BX.namespace("BX.Landing");
 		BX.Landing.getMode = () => "view";
@@ -1487,7 +1485,8 @@
 		let links = document.querySelectorAll('.landing-block-node-menu-list-item-link')
 		for (let item of links) {
 			item.addEventListener('click', (e) => {
-				window.location = item.href
+				let href = item.getAttribute('hrefV1')
+				window.location = href
 			})
 		}
 	</script>
