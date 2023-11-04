@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Website",
   "scripts": {
-    "start": "echo 'No start script"
+    "start": "echo 'Static site, no start script needed'"
   },
   "author": "",
   "license": "ISC"
