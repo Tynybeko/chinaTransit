@@ -1,1 +1,1 @@
-web: serve -s .
+web: http-server -p $PORT
