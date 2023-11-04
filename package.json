@@ -2,6 +2,9 @@
   "name": "chinatransit",
   "version": "1.0.0",
   "description": "Website",
+  "scripts": {
+    "start": "echo 'No start script"
+  },
   "author": "",
   "license": "ISC"
 }
