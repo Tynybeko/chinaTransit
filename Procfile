@@ -1,1 +1,1 @@
-web: echo "Static site, no server needed"
+web: serve -s .
